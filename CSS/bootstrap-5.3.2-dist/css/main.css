@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'newrockerregular';
+    src: local('New Rocker')
+         url('newrocker-regular-webfont.woff2') format('woff2'),
+         url('newrocker-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.newrocker {
+    font-family: 'newrockerregular', serif;
+    font-size: 30pt;
+    margin-bottom: 1px;
+    inline-size: 28pt;
+}
+.noborder-list {
+    border-style: hidden;
+}
+.notoserif {
+    font-family: "Noto Serif", serif;
+}
+.notoserif_title {
+    font-family: "Noto Serif", serif;
+    font-weight: 700;
+    font-size: 34pt;
+}
+.notoserif_bold{
+    font-family: "Noto Serif", serif;
+    font-weight: 700;
+    font-size: 13pt;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+.notoserif_p{
+    font-family: "Noto Serif", serif;
+    font-size: 21pt;
+    font-weight: 400;
+    margin-top: 34px;
+}
+.list-center{
+    display: inline-block;
+    text-align: left;
+}
+.ul-contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin:30px 0px 50px;
+}
+.img-rounded{
+    border-radius: 50%;
+    height: 150px;
+    margin-top: 50px;
+}
